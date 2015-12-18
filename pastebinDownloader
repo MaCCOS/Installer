@@ -1,1 +1,4 @@
-file = fs.open("startup","w") file.write(http.get("http://raw.github.com/MaCCOS/Installer/master/installer.lua").readAll()) file.close() os.reboot()
+file = fs.open("startup","w")
+file.write(http.get("https://raw.githubusercontent.com/MaCCOS/Installer/master/installer.lua").readAll())
+file.close()
+os.reboot()
