@@ -11,5 +11,5 @@ fs.delete("README.md")
 fs.delete("grd")
 fs.delete("MaCCOS")
 
-shell.run("mkdir usr usr/apps")
+fs.makeDir("usr/apps")
 os.reboot()
