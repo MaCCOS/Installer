@@ -6,5 +6,5 @@ file.close()
 
 shell.run("grd MaCCOS MaCCOS / . .")
 shell.run("mv MaCCOS/* /")
-shell.run("rm README.md MaCCOS")
+shell.run("rm README.md grd MaCCOS")
 os.reboot()
