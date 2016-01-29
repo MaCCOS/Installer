@@ -16,6 +16,7 @@ if ans == "y" or ans == "Y" then
   fs.delete("README.md")
   fs.delete("grd")
   fs.delete("MaCCOS")
+  fs.delete("gitignore")
   
   fs.makeDir("usr/apps")
   os.reboot()
